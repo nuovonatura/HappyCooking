@@ -1,0 +1,807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginTop": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#f2f2f2",
+        "borderRadius": 100,
+        "flexDirection": "row",
+        "marginTop": 0,
+        "paddingHorizontal": 10,
+        "paddingVertical": 5,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="search.."
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingHorizontal": 10,
+        }
+      }
+    >
+      <Text />
+    </View>
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "category": "Salad | Taco Salad",
+          "image": 1,
+          "name": "Quick Turkey Taco Salad",
+          "rating": 4.5,
+          "time": "20mins",
+        },
+        Object {
+          "category": "Seafood | Shrimp",
+          "image": 1,
+          "name": "Sheet Pan Shrimp and Sausage Bake",
+          "rating": 5,
+          "time": "1hr",
+        },
+        Object {
+          "category": "Meat and Poultry | Pork",
+          "image": 1,
+          "name": "Oven Baked BBQ Ribs",
+          "rating": 4.5,
+          "time": "3hrs 30mins",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eceff1",
+                "borderColor": "#dddddd",
+                "borderRadius": 25,
+                "borderWidth": 0.5,
+                "height": 650,
+                "marginTop": 20,
+                "paddingHorizontal": 20,
+                "width": 690,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginTop": 10,
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 0.7,
+                  "justifyContent": "space-evenly",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#65499c",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Quick Turkey Taco Salad
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9f90b6",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Time: 
+                20mins
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9f90b6",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Salad | Taco Salad
+              </Text>
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eceff1",
+                "borderColor": "#dddddd",
+                "borderRadius": 25,
+                "borderWidth": 0.5,
+                "height": 650,
+                "marginTop": 20,
+                "paddingHorizontal": 20,
+                "width": 690,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginTop": 10,
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 0.7,
+                  "justifyContent": "space-evenly",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#65499c",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Sheet Pan Shrimp and Sausage Bake
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9f90b6",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Time: 
+                1hr
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9f90b6",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Seafood | Shrimp
+              </Text>
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eceff1",
+                "borderColor": "#dddddd",
+                "borderRadius": 25,
+                "borderWidth": 0.5,
+                "height": 650,
+                "marginTop": 20,
+                "paddingHorizontal": 20,
+                "width": 690,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "marginTop": 10,
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": null,
+                    "resizeMode": "cover",
+                    "width": null,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "flex": 0.7,
+                  "justifyContent": "space-evenly",
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#65499c",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Oven Baked BBQ Ribs
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9f90b6",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Time: 
+                3hrs 30mins
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#9f90b6",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Meat and Poultry | Pork
+              </Text>
+              <View
+                pointerEvents="none"
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+                <View
+                  style={Object {}}
+                >
+                  <View
+                    accessibilityRole="button"
+                    accessible={true}
+                    focusable={false}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

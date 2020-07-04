@@ -1,0 +1,809 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1334,
+      },
+      Object {
+        "backgroundColor": "white",
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View>
+    <RCTSafeAreaView
+      emulateUnlessSupported={true}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "borderBottomColor": "#a7a6ab",
+            "borderBottomWidth": 0.5,
+            "elevation": 3,
+            "flexDirection": "row",
+            "height": 64,
+            "justifyContent": "center",
+            "left": 0,
+            "paddingLeft": 6,
+            "paddingRight": 10,
+            "paddingTop": 18,
+            "right": 0,
+            "shadowColor": undefined,
+            "shadowOffset": undefined,
+            "shadowOpacity": undefined,
+            "shadowRadius": undefined,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "alignSelf": "center",
+              "flex": 1,
+            }
+          }
+        >
+          <Text />
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+            }
+          }
+        >
+          <Text>
+            HelenYang
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text />
+        </View>
+      </View>
+    </RCTSafeAreaView>
+  </View>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      automaticallyAdjustContentInsets={false}
+      contentContainerStyle={
+        Array [
+          Object {
+            "padding": undefined,
+          },
+          undefined,
+        ]
+      }
+      contentInset={
+        Object {
+          "bottom": 0,
+        }
+      }
+      enableAutomaticScroll={true}
+      enableOnAndroid={false}
+      enableResetScrollToCoords={true}
+      extraHeight={75}
+      extraScrollHeight={0}
+      getScrollResponder={[Function]}
+      handleOnScroll={[Function]}
+      keyboardDismissMode="interactive"
+      keyboardOpeningTime={250}
+      keyboardShouldPersistTaps="handled"
+      keyboardSpace={0}
+      onScroll={[Function]}
+      resetKeyboardSpace={[Function]}
+      resetScrollToCoords={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      scrollEventThrottle={1}
+      scrollForExtraHeightOnAndroid={[Function]}
+      scrollIntoView={[Function]}
+      scrollToEnd={[Function]}
+      scrollToFocusedInput={[Function]}
+      scrollToPosition={[Function]}
+      showsVerticalScrollIndicator={true}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "flex": 1,
+        }
+      }
+      update={[Function]}
+      viewIsInsideTabBar={false}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "paddingTop": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "borderRadius": 37.5,
+                    "height": 75,
+                    "width": 75,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 3,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-around",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                    }
+                  }
+                >
+                  <Text>
+                    20
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 10,
+                      }
+                    }
+                  >
+                    posts
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                    }
+                  }
+                >
+                  <Text>
+                    30
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 10,
+                      }
+                    }
+                  >
+                    recipes
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                    }
+                  }
+                >
+                  <Text>
+                    50
+                  </Text>
+                  <Text
+                    style={
+                      Object {
+                        "color": "grey",
+                        "fontSize": 10,
+                      }
+                    }
+                  >
+                    followers
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  focusable={false}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderBottomWidth": 1,
+                      "borderColor": "#000",
+                      "borderLeftWidth": 1,
+                      "borderRadius": 5,
+                      "borderRightWidth": 1,
+                      "borderTopWidth": 1,
+                      "borderWidth": 1,
+                      "elevation": null,
+                      "flex": 3,
+                      "flexDirection": "row",
+                      "height": 30,
+                      "justifyContent": "center",
+                      "marginLeft": 10,
+                      "opacity": 1,
+                      "paddingBottom": 6,
+                      "paddingTop": 6,
+                      "shadowColor": null,
+                      "shadowOffset": null,
+                      "shadowOpacity": null,
+                      "shadowRadius": null,
+                    }
+                  }
+                >
+                  <Text>
+                    Edit Profile
+                  </Text>
+                </View>
+                <View
+                  accessible={true}
+                  focusable={true}
+                  isTVSelectable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "transparent",
+                      "borderBottomWidth": 1,
+                      "borderColor": "#000",
+                      "borderLeftWidth": 1,
+                      "borderRadius": 5,
+                      "borderRightWidth": 1,
+                      "borderTopWidth": 1,
+                      "borderWidth": 1,
+                      "elevation": null,
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "height": 30,
+                      "justifyContent": "center",
+                      "marginLeft": 5,
+                      "marginRight": 10,
+                      "opacity": 1,
+                      "paddingBottom": 6,
+                      "paddingTop": 6,
+                      "shadowColor": null,
+                      "shadowOffset": null,
+                      "shadowOpacity": null,
+                      "shadowRadius": null,
+                    }
+                  }
+                >
+                  <Text />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 10,
+                "paddingVertical": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              Yang Yue
+            </Text>
+            <Text>
+              Chinese cuisine | Korean cuisine
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "borderTopColor": "#eeeeee",
+                "borderTopWidth": 1,
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomWidth": null,
+                  "borderColor": "#007aff",
+                  "borderLeftWidth": null,
+                  "borderRadius": 5,
+                  "borderRightWidth": null,
+                  "borderTopWidth": null,
+                  "borderWidth": undefined,
+                  "elevation": 0,
+                  "flexDirection": "row",
+                  "height": 45,
+                  "justifyContent": "space-between",
+                  "opacity": 1,
+                  "paddingBottom": 6,
+                  "paddingTop": 6,
+                  "shadowColor": null,
+                  "shadowOffset": null,
+                  "shadowOpacity": null,
+                  "shadowRadius": null,
+                }
+              }
+            >
+              <Text />
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomWidth": null,
+                  "borderColor": "#007aff",
+                  "borderLeftWidth": null,
+                  "borderRadius": 5,
+                  "borderRightWidth": null,
+                  "borderTopWidth": null,
+                  "borderWidth": undefined,
+                  "elevation": 0,
+                  "flexDirection": "row",
+                  "height": 45,
+                  "justifyContent": "space-between",
+                  "opacity": 1,
+                  "paddingBottom": 6,
+                  "paddingTop": 6,
+                  "shadowColor": null,
+                  "shadowOffset": null,
+                  "shadowOpacity": null,
+                  "shadowRadius": null,
+                }
+              }
+            >
+              <Text />
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomWidth": null,
+                  "borderColor": "#007aff",
+                  "borderLeftWidth": null,
+                  "borderRadius": 5,
+                  "borderRightWidth": null,
+                  "borderTopWidth": null,
+                  "borderWidth": undefined,
+                  "elevation": 0,
+                  "flexDirection": "row",
+                  "height": 45,
+                  "justifyContent": "space-between",
+                  "opacity": 1,
+                  "paddingBottom": 6,
+                  "paddingTop": 6,
+                  "shadowColor": null,
+                  "shadowOffset": null,
+                  "shadowOpacity": null,
+                  "shadowRadius": null,
+                }
+              }
+            >
+              <Text />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingRight": 0,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingLeft": 2,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingLeft": 2,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingRight": 0,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingLeft": 2,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingLeft": 2,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingRight": 0,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingLeft": 2,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingLeft": 2,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "width": 250,
+                  },
+                  Object {
+                    "height": 250,
+                  },
+                  Object {
+                    "marginBottom": 2,
+                  },
+                  Object {
+                    "paddingRight": 0,
+                  },
+                ]
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 1,
+                    "height": undefined,
+                    "width": undefined,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;

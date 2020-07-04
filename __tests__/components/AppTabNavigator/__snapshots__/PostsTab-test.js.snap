@@ -1,0 +1,1154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1334,
+      },
+      Object {
+        "backgroundColor": "white",
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View>
+    <RCTSafeAreaView
+      emulateUnlessSupported={true}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "borderBottomColor": "#a7a6ab",
+            "borderBottomWidth": 0.5,
+            "elevation": 3,
+            "flexDirection": "row",
+            "height": 64,
+            "justifyContent": "center",
+            "left": 0,
+            "paddingLeft": 6,
+            "paddingRight": 10,
+            "paddingTop": 18,
+            "right": 0,
+            "shadowColor": undefined,
+            "shadowOffset": undefined,
+            "shadowOpacity": undefined,
+            "shadowRadius": undefined,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "alignSelf": "center",
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "borderRadius": 37.5,
+                  "height": 45,
+                  "width": 45,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            HappyCooking
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text />
+        </View>
+      </View>
+    </RCTSafeAreaView>
+  </View>
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      automaticallyAdjustContentInsets={false}
+      contentContainerStyle={
+        Array [
+          Object {
+            "padding": undefined,
+          },
+          undefined,
+        ]
+      }
+      contentInset={
+        Object {
+          "bottom": 0,
+        }
+      }
+      enableAutomaticScroll={true}
+      enableOnAndroid={false}
+      enableResetScrollToCoords={true}
+      extraHeight={75}
+      extraScrollHeight={0}
+      getScrollResponder={[Function]}
+      handleOnScroll={[Function]}
+      keyboardDismissMode="interactive"
+      keyboardOpeningTime={250}
+      keyboardShouldPersistTaps="handled"
+      keyboardSpace={0}
+      onScroll={[Function]}
+      resetKeyboardSpace={[Function]}
+      resetScrollToCoords={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      scrollEventThrottle={1}
+      scrollForExtraHeightOnAndroid={[Function]}
+      scrollIntoView={[Function]}
+      scrollToEnd={[Function]}
+      scrollToFocusedInput={[Function]}
+      scrollToPosition={[Function]}
+      showsVerticalScrollIndicator={true}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "flex": 1,
+        }
+      }
+      update={[Function]}
+      viewIsInsideTabBar={false}
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomWidth": 0.5,
+              "borderColor": "#ccc",
+              "borderLeftWidth": 0.5,
+              "borderRadius": 2,
+              "borderRightWidth": 0.5,
+              "borderTopWidth": 0.5,
+              "elevation": 3,
+              "flexWrap": "nowrap",
+              "marginBottom": 5,
+              "marginLeft": 2,
+              "marginRight": 2,
+              "marginTop": 5,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 1.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "borderRadius": 28,
+                    "height": 56,
+                    "width": 56,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "alignItems": null,
+                    "alignSelf": "center",
+                    "flex": 1,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                <Text>
+                  Helen
+                </Text>
+                <Text
+                  note={true}
+                >
+                  Jun 25, 2020
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            cardBody={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": -5,
+                "paddingLeft": -5,
+                "paddingRight": -5,
+                "paddingTop": -5,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "flex": 1,
+                  "height": 200,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 10,
+                },
+                Object {
+                  "height": 45,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 10,
+                },
+                Object {
+                  "height": 20,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "marginTop": -20,
+                }
+              }
+            >
+              101 likes
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                }
+              }
+            >
+              <Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Helen
+                </Text>
+                Nutrition is defined as the processes by which an animal or plant takes in and utilises food substances. Essential nutrients include protein, carbohydrate, fat, vitamins, minerals and electrolytes. Normally, 85% of daily energy use is from fat and carbohydrates and 15% from protein
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomWidth": 0.5,
+              "borderColor": "#ccc",
+              "borderLeftWidth": 0.5,
+              "borderRadius": 2,
+              "borderRightWidth": 0.5,
+              "borderTopWidth": 0.5,
+              "elevation": 3,
+              "flexWrap": "nowrap",
+              "marginBottom": 5,
+              "marginLeft": 2,
+              "marginRight": 2,
+              "marginTop": 5,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 1.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "borderRadius": 28,
+                    "height": 56,
+                    "width": 56,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "alignItems": null,
+                    "alignSelf": "center",
+                    "flex": 1,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                <Text>
+                  Helen
+                </Text>
+                <Text
+                  note={true}
+                >
+                  Jun 25, 2020
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            cardBody={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": -5,
+                "paddingLeft": -5,
+                "paddingRight": -5,
+                "paddingTop": -5,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "flex": 1,
+                  "height": 200,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 10,
+                },
+                Object {
+                  "height": 45,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 10,
+                },
+                Object {
+                  "height": 20,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "marginTop": -20,
+                }
+              }
+            >
+              1 likes
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                }
+              }
+            >
+              <Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Helen
+                </Text>
+                Nutrition is defined as the processes by which an animal or plant takes in and utilises food substances. Essential nutrients include protein, carbohydrate, fat, vitamins, minerals and electrolytes. Normally, 85% of daily energy use is from fat and carbohydrates and 15% from protein
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomWidth": 0.5,
+              "borderColor": "#ccc",
+              "borderLeftWidth": 0.5,
+              "borderRadius": 2,
+              "borderRightWidth": 0.5,
+              "borderTopWidth": 0.5,
+              "elevation": 3,
+              "flexWrap": "nowrap",
+              "marginBottom": 5,
+              "marginLeft": 2,
+              "marginRight": 2,
+              "marginTop": 5,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 1.5,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "borderRadius": 28,
+                    "height": 56,
+                    "width": 56,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "alignItems": null,
+                    "alignSelf": "center",
+                    "flex": 1,
+                    "marginLeft": 10,
+                  }
+                }
+              >
+                <Text>
+                  Helen
+                </Text>
+                <Text
+                  note={true}
+                >
+                  Jun 25, 2020
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            cardBody={true}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": -5,
+                "paddingLeft": -5,
+                "paddingRight": -5,
+                "paddingTop": -5,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "flex": 1,
+                  "height": 200,
+                  "width": null,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 10,
+                },
+                Object {
+                  "height": 45,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+              <View
+                accessible={true}
+                focusable={false}
+                isTVSelectable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderBottomWidth": null,
+                    "borderColor": "#007aff",
+                    "borderLeftWidth": null,
+                    "borderRadius": 5,
+                    "borderRightWidth": null,
+                    "borderTopWidth": null,
+                    "borderWidth": undefined,
+                    "elevation": 0,
+                    "flexDirection": "row",
+                    "height": 45,
+                    "justifyContent": "space-between",
+                    "opacity": 1,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "paddingRight": 15,
+                    "paddingTop": null,
+                    "shadowColor": null,
+                    "shadowOffset": null,
+                    "shadowOpacity": null,
+                    "shadowRadius": null,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 10,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 10,
+                },
+                Object {
+                  "height": 20,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "marginTop": -20,
+                }
+              }
+            >
+              502 likes
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "borderRadius": 2,
+                "flexDirection": "row",
+                "paddingBottom": 10,
+                "paddingLeft": 15,
+                "paddingRight": 15,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "alignSelf": "stretch",
+                  "flex": 1,
+                }
+              }
+            >
+              <Text>
+                <Text
+                  style={
+                    Object {
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  Helen
+                </Text>
+                Nutrition is defined as the processes by which an animal or plant takes in and utilises food substances. Essential nutrients include protein, carbohydrate, fat, vitamins, minerals and electrolytes. Normally, 85% of daily energy use is from fat and carbohydrates and 15% from protein
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;

@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#003300",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": 100,
+          "width": 100,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "rgba(225, 225, 225, 0.7)",
+          "fontSize": 15,
+          "marginVertical": 10,
+        }
+      }
+    >
+      Welcome to HappyCooking!
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      keyboardType="email-address"
+      onChangeText={[Function]}
+      onsubmitEditing={[Function]}
+      palceholderTextColor="#ffffff"
+      placeholder="Email"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "rgba(225, 225, 225, 0.2)",
+          "borderRadius": 25,
+          "color": "#ffffff",
+          "fontSize": 16,
+          "height": 60,
+          "marginVertical": 10,
+          "paddingHorizontal": 16,
+          "width": 300,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Password"
+      rejectResponderTermination={true}
+      secureTextEntry={true}
+      style={
+        Object {
+          "backgroundColor": "rgba(225, 225, 225, 0.2)",
+          "borderRadius": 25,
+          "color": "#ffffff",
+          "fontSize": 16,
+          "height": 60,
+          "marginVertical": 10,
+          "paddingHorizontal": 16,
+          "width": 300,
+        }
+      }
+      underlineColor="rgba(0, 0, 0, 0)"
+      underlineColorAndroid="transparent"
+    />
+    <View
+      accessible={true}
+      focusable={false}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#00251a",
+          "borderRadius": 25,
+          "marginVertical": 10,
+          "opacity": 1,
+          "paddingVertical": 12,
+          "width": 300,
+        }
+      }
+    >
+      <Text
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "textAlign": "center",
+          }
+        }
+      >
+        Signup
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "flexGrow": 1,
+        "justifyContent": "center",
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgba(255, 255, 255, 0.4)",
+          "fontSize": 16,
+        }
+      }
+    >
+      Already have an account? 
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "rgba(255, 255, 255, 0.8)",
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Signin
+      </Text>
+    </View>
+  </View>
+</View>
+`;
