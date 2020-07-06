@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import firebase from "../Firebase";
-import 'firebase/firestore'
+import 'firebase/firestore';
 
 export default class Form extends Component<{}> {
     state = {
