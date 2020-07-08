@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component,useState, useLayoutEffect} from 'react';
 import { Actions } from 'react-native-router-flux'
 import {
     StyleSheet,
@@ -7,11 +7,12 @@ import {
     TouchableOpacity,
     TextInput,
     Dimensions,
+    FlatList,
 } from 'react-native';
-import ImagePicker from "react-native-image-picker"
+import ImagePicker from "react-native-image-picker";
 import {Body, Container, Header, Icon, Left, Right, Content} from "native-base";
 import AntDesign from 'react-native-vector-icons/AntDesign'
-
+import {IconButton, Surface} from "react-native-paper";
 
 const handleUpload = () => {
     ImagePicker.showImagePicker({maxHeight: 500, maxWidth: 500}, response => {
@@ -22,7 +23,9 @@ const handleUpload = () => {
 }
 
 
-const PostUpload = () => {
+const PostUpload = ({navigation}) => {
+
+        const [images, setImages] = useState([]);
 
         return (
             <Container style={{flex: 1, backgroundColor: 'white'}}>
@@ -30,7 +33,9 @@ const PostUpload = () => {
                     <Left><AntDesign name="arrowleft" style={{ fontSize: 25, paddingLeft: 10}}></AntDesign></Left>
                     <Body><Text style={{fontWeight: "700"}}>Post</Text></Body>
                     <Right>
-                        <TouchableOpacity>
+                        <TouchableOpacity
+                            onPress={handleUpload()}
+                        >
                             <Icon name="ios-add" style={{paddingRight:10, fontSize: 32}}/>
                         </TouchableOpacity>
                     </Right>
@@ -40,6 +45,16 @@ const PostUpload = () => {
                         <TextInput style={styles.inputBox}
                                    placeholder="What do you want to say..."
                                    palceholderTextColor='#ffffff'
+                        />
+                    </View>
+                    <View>
+                        <FlatList
+                            data={images}
+                            renderItem={({item}) => (
+                                <Surface>
+                                    <Image source={{uri: item.uri}} />
+                                </Surface>
+                            )}
                         />
                     </View>
                 </Content>
