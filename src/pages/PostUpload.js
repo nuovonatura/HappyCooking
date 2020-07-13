@@ -6,96 +6,93 @@ import {
     Text,
     TouchableOpacity,
     TextInput,
+    Image,
     Dimensions,
     FlatList,
+    SafeAreaView
 } from 'react-native';
 import {Body, Container, Header, Icon, Left, Right, Content} from "native-base";
 import AntDesign from 'react-native-vector-icons/AntDesign'
+import Ionicons from 'react-native-vector-icons/Ionicons'
 import {IconButton, Surface} from "react-native-paper";
-import ImagePicker from "react-native-image-picker";
-
-// const handleUpload = () => {
-//     ImagePicker.showImagePicker({maxHeight: 500, maxWidth: 500}, response => {
-//         if(response.didCancel) {
-//             return;
-//         }
-//     })
-// }
+import * as ImagePicker from "expo-image-picker";
 
 
-export default class PostUpload extends Component() {
+export default class PostUpload extends Component {
     state = {
-        avatarSource: null
+        text: "",
+        image: null,
     }
-    selectImage = async () => {
-        ImagePicker.showImagePicker({noData: true, mediaType: "photo"}, (response) => {
-            console.log('Response = ', response);
 
-            if (response.didCancel) {
-                console.log('User cancelled image picker');
-            } else if (response.error) {
-                console.log('ImagePicker Error: ', response.error);
-            } else if (response.customButton) {
-                console.log('User tapped custom button: ', response.customButton);
-            } else {
-                this.setState({
-                    avatarSource: source,
-                });
-            }
-        });
+    pickImage = async () => {
+        let result = await ImagePicker.launchImageLibraryAsync({
+            mediaTypes: ImagePicker.MediaTypeOptions.Images,
+            allowsEditing: true,
+            aspect: [4, 3],
+        })
+
+        if (!result.cancelled) {
+            this.setState({image: result.uri})
+        }
     }
+
+
+
         render() {
-            const [images, setImages] = useState([]);
-
             return (
-                <Container style={{flex: 1, backgroundColor: 'white'}}>
-                    <Header>
-                        <Left><AntDesign name="arrowleft" style={{fontSize: 25, paddingLeft: 10}}></AntDesign></Left>
-                        <Body><Text style={{fontWeight: "700"}}>Post</Text></Body>
-                        <Right>
-                            <TouchableOpacity
-                                onPress={this.selectImage()}
-                            >
-                                <Icon name="ios-add" style={{paddingRight: 10, fontSize: 32}}/>
-                            </TouchableOpacity>
-                        </Right>
-                    </Header>
-                    <Content>
-                        <View style={{alignItems: 'center'}}>
-                            <TextInput style={styles.inputBox}
-                                       placeholder="What do you want to say..."
-                                       palceholderTextColor='#ffffff'
-                            />
-                        </View>
-                        <View>
-                            <FlatList
-                                data={images}
-                                renderItem={({item}) => (
-                                    <Surface>
-                                        <Image source={{uri: item.uri}}/>
-                                    </Surface>
-                                )}
-                            />
-                        </View>
-                    </Content>
-                </Container>
+                <SafeAreaView style={styles.container}>
+                    <View style={styles.header}>
+                        <TouchableOpacity>
+                            <AntDesign name="arrowleft" size={24}/>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
+                            <Text style={{fontWeight: "500"}}>Post</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={styles.inputBox}>
+                        <TextInput
+                            autoFocus={true}
+                            multiline={true}
+                            numberOfLines={4}
+                            style={{flex: 1}}
+                            placeholder={"What to share something?"}
+                            onChangeText={text => this.setState({text})}
+                            value={this.state.text}
+                        >
 
+                        </TextInput>
+                    </View>
+
+                    <TouchableOpacity style={styles.photo} onPress={this.pickImage()}>
+                        <Ionicons name="md-camera" size={32} color={"#D8D9D8"}></Ionicons>
+                    </TouchableOpacity>
+
+                    <View style={{marginHorizontal: 32, marginTop: 32, height: 150}}>
+                        <Image source={{uri: this.state.image}} style={{width: "100%", height: "100%"}}/>
+                    </View>
+                </SafeAreaView>
             );
         }
 }
 
 
-var {width, height} = Dimensions.get('window')
 
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        alignItems:'center',
-        justifyContent:'center',
+    },
+    header: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        paddingHorizontal: 32,
+        paddingVertical: 12,
+        borderBottomWidth: 1,
+        borderBottomColor: "#D8D9D8"
     },
     inputBox: {
-        width: width - 20,
-        height: 200,
+        paddingRight: 20,
+        width: 400,
+        height: 150,
         backgroundColor: 'rgba(225, 225, 225, 0.2)',
         borderRadius: 25,
         paddingHorizontal: 16,
@@ -103,4 +100,9 @@ const styles = StyleSheet.create({
         color: 'black',
         marginVertical: 10,
     },
+    photo: {
+        alignItems: "flex-end",
+        marginHorizontal: 32,
+
+    }
 })
