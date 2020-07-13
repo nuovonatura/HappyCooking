@@ -8,15 +8,7 @@ import {
 import {Body, Content, Container, Header, Icon, Left, Right} from "native-base";
 import EntypoIcon from 'react-native-vector-icons/Entypo'
 import CardCompo from "../CardCompo";
-import ImagePicker from "react-native-image-picker"
 
-const handleUpload = () => {
-    ImagePicker.showImagePicker({maxHeight: 500, maxWidth: 500}, response => {
-        if(response.didCancel) {
-            return;
-        }
-    })
-}
 
 class PostsTab extends Component {
     static navigationOptions = {
@@ -36,7 +28,6 @@ class PostsTab extends Component {
                     <Body><Text style={{fontWeight: 'bold'}}>HappyCooking</Text></Body>
                     <Right>
                         <TouchableOpacity
-                            onPress={handleUpload}
                         >
                             <Icon name="ios-camera" style={{paddingLeft: 10}}></Icon>
                         </TouchableOpacity>
