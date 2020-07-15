@@ -42,7 +42,7 @@ export default class PostUpload extends Component {
             return (
                 <SafeAreaView style={styles.container}>
                     <View style={styles.header}>
-                        <TouchableOpacity>
+                        <TouchableOpacity onPress={() => this.props.navigation.goBack()}>
                             <AntDesign name="arrowleft" size={24}/>
                         </TouchableOpacity>
                         <TouchableOpacity>
