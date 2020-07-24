@@ -5,12 +5,13 @@ import {
 import Routes from "./src/Routes";
 import MainScreen from "./src/components/MainScreen";
 import PostUpload from "./src/pages/PostUpload";
+
 export default class App extends Component<{}>{
     render() {
         return (
-            //<Routes />
+            <Routes />
             //<MainScreen/>
-            <PostUpload/>
+            //<PostUpload/>
         );
     }
 }

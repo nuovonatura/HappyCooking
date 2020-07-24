@@ -13,37 +13,19 @@ import {
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import StarRating from "react-native-star-rating";
+import firebase from '../Firebase';
 
-let data=[
-    {
-        image: require('../images/s1.png'),
-        name:"Sheet Pan Shrimp and Sausage Bake",
-        time:"1hr",
-        category:"Seafood | Shrimp",
-        rating:5
-    },
-    {
-        image: require('../images/s2.png'),
-        name: "Fluffy Pancake",
-        time: "25mins",
-        category: "Breakfast and brunch | pancakes",
-        rating:4,
-    },
-    {
-        image: require('../images/s3.png'),
-        name: "Quick Turkey Taco Salad",
-        time: "20mins",
-        category: "Salad | Taco Salad",
-        rating:4.5
-    },
-    {
-        image: require('../images/s4.png'),
-        name: "Oven Baked BBQ Ribs",
-        time: "3hrs 30mins",
-        category: "Meat and Poultry | Pork",
-        rating: 4.5
-    }
-]
+let data = null;
+
+firebase.firestore().collection("RecipeUniverse").get()
+    .then(querySnapshot => {
+        data = new Array(querySnapshot.size);
+        let index = 0;
+        querySnapshot.forEach(doc => {
+            data[index] = doc.data();
+            index++;
+        })
+    })
 
 class All extends Component<{}>{
     state={
@@ -78,7 +60,7 @@ class All extends Component<{}>{
                     <View style={styles.recipeImage}>
                         <Image
                             style={{flex:1, width:null, height:null, resizeMode:'cover'}}
-                            source = {item.image}/>
+                            source = {{uri: item.image}}/>
                     </View>
                     <View style={styles.recipeTextBox}>
                         <Text style={styles.recipeText}>{item.name}</Text>

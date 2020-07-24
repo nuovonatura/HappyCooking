@@ -30,7 +30,7 @@
     "dependencies": "0.0.1",
     "expo": "~37.0.3",
     "expo-image-picker": "~8.1.0",
-    "firebase": "^7.15.5",
+    "firebase": "7.9.0",
     "install": "^0.13.0",
     "native-base": "^2.13.12",
     "peer": "^0.5.3",

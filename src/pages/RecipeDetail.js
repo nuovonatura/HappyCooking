@@ -59,7 +59,7 @@ export default class RecipeDetail extends Component {
         return (
             <View >
                 <ImageBackground
-                    source={passon.image}
+                    source={{uri: passon.image}}
                     style={{
                         width: '100%',
                     }}

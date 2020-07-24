@@ -8,7 +8,6 @@ import {
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import firebase from "../Firebase";
-import 'firebase/firestore';
 
 export default class Form extends Component<{}> {
     state = {
@@ -56,16 +55,18 @@ export default class Form extends Component<{}> {
                 alert("Account created!")
                 const userData = {
                     dateCreated: firebase.firestore.Timestamp.now(),
-                    lastLogin: firebase.firestore.Timestamp.now()
+                    lastLogin: firebase.firestore.Timestamp.now(),
                 }
-                firebase.firestore()
+                const userDoc = firebase.firestore()
                     .collection("Users")
-                    .doc(firebase.auth().currentUser.uid)
-                    .set(userData)
+                    .doc(firebase.auth().currentUser.uid);
+
+                userDoc.set(userData)
                     .catch(error => {
                         console.log(error);
                     });
-                Actions.login()
+
+                Actions.main()
             })
             .catch(function(error) {
                 let errorMessage = error.message;
